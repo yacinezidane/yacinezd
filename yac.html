@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website</title>
+    <link rel="stylesheet" href="yac2.css">
+</head>
+<body>
+<section>
+<div class="circle"></div>    
+<header>
+<a href="#" ><img src="logo.png" class="logo"></a>
+<ul>
+<li><a href="">Home</a></li>
+<li ><a href="">Menu</a></li>
+<li ><a href="">what a new</a></li>
+<li ><a href="">Contact</a></li>     
+</ul>    
+</header>
+<div class="content">
+<div class="textbox">
+<h2>its not just a coffe <br>its <span>starbucks</span></h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum sunt vel facere aspernatur, est fuga ipsam labore hic quidem at deserunt odio laudantium? Placeat voluptas expedita earum totam sed odit.</p>
+<a href=""> learn more</a>     
+</div>
+<div class="imgbox"><img src="img1.png" class="starbucks"></div>      
+</div>
+<ul class="thumb">
+<li><img src="thumb1.png" onclick="imgsolidar('img1.png')"></li>
+<li><img src="thumb2.png" onclick="imgsolidar('img2.png')"></li>
+<li><img src="thumb3.png" onclick="imgsolidar('img3.png')"></li>    
+</ul>
+<ul class="sci">
+<li><a href=""><img src="facebook.png"></a></li>
+<li><a href=""><img src="twitter.png"></a></li>
+<li><a href=""><img src="instagram.png"></a></li>      
+</ul>  
+</section>
+<script type="text/javascript">
+function imgsolidar(anything){
+document.querySelector('.starbucks').src=anything;
+}    
+</script>  
+</body>
+</html>
